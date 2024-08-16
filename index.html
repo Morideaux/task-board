@@ -43,6 +43,46 @@
         </button>
       </div>
       <!-- Todo: Create a modal with a form to add tasks -->
+
+      <div class="formModel" id="Formid">
+        <div>
+          <div class="formBtn">
+            <div class="formBtnHead">
+              <h1 class="form-title" id="formTitleId">Add Task</h1>
+              <button type="button" class="add-task-btn"></button>
+            </div>
+            <div class="form-box">
+              <form id="taskForm" class="form-prompt-content">
+                <div class="row">
+                  <label for="taskTitle" class="form-lable">Task Title</label>
+                  <input type="text" class="form-control" id="taskTitleId" />
+                </div>
+                <div>
+                  <label for="task-due-date" class="form-lable"
+                    >Task Due Date</label
+                  >
+                  <input type="text" class="form-control" id="taskDueDateId" />
+                </div>
+                <br />
+                <div class="row">
+                  <label for="task-description" class="form-lable"
+                    >Task Description</label
+                  >
+                  <textarea
+                    name="task-description"
+                    id="taskDescriptionId"
+                    class="form-control"
+                  ></textarea>
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-fin">Add Task</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row swim-lanes text-center justify-content-between">
         <div class="col-12 col-lg-4 d-flex">
           <div id="to-do" class="card border-light mb-3 lane flex-grow-1">
