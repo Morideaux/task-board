@@ -28,6 +28,8 @@ task are color coded based on the proximity to the given due date and can be del
 
 ### Credits
 
+This project features starter code as part of an ASU/EDX developer bootcamp.
+
 This was done as a solo project by me, Meish Hamilton. I used the following tutorials for additional support.
 
 tutorials go here
